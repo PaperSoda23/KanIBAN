@@ -28,12 +28,21 @@ namespace KanIBAN.API.Service
                 return new IBAN { RawIBAN = rawIBAN, Country = country, AccountNumber = string.Empty, BankCode = string.Empty, CheckDigits = string.Empty };
             }
             
-            string checkDigits = rawIBAN.Substring(2, 2);
-            
             ibanFormat = resolveIBANFormat(country);
 
-            string bankCode = rawIBAN.Substring(4, ibanFormat.BankCodeLength);
-            string accountNumber = rawIBAN.Substring(4 + ibanFormat.BankCodeLength, ibanFormat.AccountNumberLength);
+            string checkDigits = rawIBAN.Substring(2, 2);
+            string bankCode;
+            string accountNumber;
+            try 
+            {
+                bankCode = rawIBAN.Substring(4, ibanFormat.BankCodeLength);
+                accountNumber = rawIBAN.Substring(4 + ibanFormat.BankCodeLength, ibanFormat.AccountNumberLength);
+            } 
+            catch (ArgumentOutOfRangeException) 
+            {
+                bankCode = string.Empty;
+                accountNumber = string.Empty;
+            }
 
             return new IBAN
             {
