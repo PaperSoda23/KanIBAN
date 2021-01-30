@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanIBAN.API", "KanIBAN.API\KanIBAN.API.csproj", "{CAD7D381-7BF4-4A73-82C3-FD5444E88F9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanIBAN.API.Tests", "KanIBAN.API.Tests\KanIBAN.API.Tests.csproj", "{FDCAFB07-6497-429C-9A09-AE2F466FD3D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAD7D381-7BF4-4A73-82C3-FD5444E88F9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD7D381-7BF4-4A73-82C3-FD5444E88F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD7D381-7BF4-4A73-82C3-FD5444E88F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD7D381-7BF4-4A73-82C3-FD5444E88F9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDCAFB07-6497-429C-9A09-AE2F466FD3D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCAFB07-6497-429C-9A09-AE2F466FD3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCAFB07-6497-429C-9A09-AE2F466FD3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCAFB07-6497-429C-9A09-AE2F466FD3D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

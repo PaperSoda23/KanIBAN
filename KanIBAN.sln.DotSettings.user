@@ -1,0 +1,40 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.1.10\ref\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Core.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\lukas.jukna\.nuget\packages\fluentvalidation\9.4.0\lib\netstandard2.0\FluentValidation.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1d049924_002D6008_002D47bb_002D80c5_002D29b1357e6469/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="processes_multiple_requests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::FDCAFB07-6497-429C-9A09-AE2F466FD3D3::.NETCoreApp,Version=v3.1::KanIBAN.API.Tests.Controller.IBANControllerTests.processes_multiple_requests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=41fc3afc_002D04c4_002D4aaf_002D8a37_002Ddeae1333612e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="processes_multiple_requests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::FDCAFB07-6497-429C-9A09-AE2F466FD3D3::.NETCoreApp,Version=v3.1::KanIBAN.API.Tests.Controller.IBANControllerTests.processes_multiple_requests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FDCAFB07-6497-429C-9A09-AE2F466FD3D3::.NETCoreApp,Version=v3.1::KanIBAN.API.Tests.Service.IBANBankResolverTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FDCAFB07-6497-429C-9A09-AE2F466FD3D3::.NETCoreApp,Version=v3.1::KanIBAN.API.Tests.Controller.IBANControllerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FDCAFB07-6497-429C-9A09-AE2F466FD3D3::.NETCoreApp,Version=v3.1::KanIBAN.API.Tests.ChecksumValidatorTests.returns_true_on_valid_checksum&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=64c74c92_002D0905_002D41b8_002Dac67_002Dcbc8e7d6782f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="IBANBankResolverTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::FDCAFB07-6497-429C-9A09-AE2F466FD3D3::.NETCoreApp,Version=v3.1::KanIBAN.API.Tests.Service.IBANBankResolverTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FDCAFB07-6497-429C-9A09-AE2F466FD3D3::.NETCoreApp,Version=v3.1::KanIBAN.API.Tests.Controller.IBANControllerTests.processes_multiple_requests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a783a6df_002D10e6_002D4978_002D84b0_002D66c9fac4f2d3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="returns_true_on_valid_checksum" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::FDCAFB07-6497-429C-9A09-AE2F466FD3D3::.NETCoreApp,Version=v3.1::KanIBAN.API.Tests.Controller.IBANControllerTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FDCAFB07-6497-429C-9A09-AE2F466FD3D3::.NETCoreApp,Version=v3.1::KanIBAN.API.Tests.Service.IBANBankResolverTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d46e7542_002D3d4b_002D48b9_002Db6b0_002D0a179efc15df/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="with_existing_bank_code_resolves_bank" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::FDCAFB07-6497-429C-9A09-AE2F466FD3D3::.NETCoreApp,Version=v3.1::KanIBAN.API.Tests.Service.IBANBankResolverTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FDCAFB07-6497-429C-9A09-AE2F466FD3D3::.NETCoreApp,Version=v3.1::KanIBAN.API.Tests.Service.IBANResponseBuilderTests.builds_expected_response&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FDCAFB07-6497-429C-9A09-AE2F466FD3D3::.NETCoreApp,Version=v3.1::KanIBAN.API.Tests.Service.IBANResponseBuilderTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FDCAFB07-6497-429C-9A09-AE2F466FD3D3::.NETCoreApp,Version=v3.1::KanIBAN.API.Tests.Service.IBANParserTests.parses_lithuanian_code&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FDCAFB07-6497-429C-9A09-AE2F466FD3D3::.NETCoreApp,Version=v3.1::KanIBAN.API.Tests.Service.IBANParserTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::FDCAFB07-6497-429C-9A09-AE2F466FD3D3::.NETCoreApp,Version=v3.1::KanIBAN.API.Tests.Controller.IBANControllerTests.processes_request&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
