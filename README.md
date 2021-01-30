@@ -12,14 +12,14 @@
 
 # Endpoints
 
-## endpoint single request `post: /IBAN`
+## endpoint single iban `post: /IBAN`
 ```
 {
     "iban": "LT012345678901234567"
 }
 ```
 
-## endpoint multiple requests `post: /IBAN/list`
+## endpoint multiple ibans `post: /IBAN/list`
 ```
 {
   "ibans" [
