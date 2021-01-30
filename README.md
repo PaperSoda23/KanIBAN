@@ -12,6 +12,8 @@
 
 # Endpoints
 
+## root: `localhost:5000`
+
 ## endpoint single iban `post: /IBAN`
 ```
 {
