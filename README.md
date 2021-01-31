@@ -1,12 +1,18 @@
 # KanIBAN
 
 # Instructions
+## use docker (prefered)
+* caution: requires 'Docker Desktop' for Windows
+* in root project dir run command `docker-compose up`
 
-## run app
+## use powershell
+caution: requires .NET installed locally
+
+### run app
 1. MOUSE2 on run.ps1 in root project dir
 2. select 'Run with PowerShell'
 
-## test app
+### test app
 1. MOUSE2 on test.ps1 in root project dir
 2. select 'Run with PowerShell'
 
