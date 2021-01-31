@@ -1,7 +1,7 @@
 # KanIBAN
 
 # Instructions
-## use docker (prefered)
+## use docker (preferred)
 * caution: requires 'Docker Desktop' for Windows
 * in root project dir run command `docker-compose up`
 
